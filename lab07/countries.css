@@ -1,0 +1,31 @@
+.stamp {
+    width: 300px;
+    height: 300px;
+    border-style: dashed;
+    border-color: green;
+    box-shadow: 5px 5px 5px #4b4b4b;
+    display: inline-block;
+    margin: 10px;
+    background-size: 90px auto, auto 300px;
+    background-position: top right,center;
+    background-repeat: no-repeat, no-repeat; 
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: ivory;
+}
+#southkorea {
+    background-image: url("southkoreaflag.gif"), url("southkorea.jpg");
+}
+#Laos {
+    background-image: url("Laosflag.gif"), url("Laos.jpg");
+}
+#panama {
+    background-image: url("panamaflag.gif"), url("panama.jpg");
+}
+#russia {
+    background-image: url("russiaflag.gif"), url("russia.jpg");
+}
