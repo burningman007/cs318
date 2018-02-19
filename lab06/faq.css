@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(78, 78, 255);
+}
+h3 {
+    font-size: 24pt;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 2px 4px #ffffff;
+}
+.answer {
+    font-family: 'Slabo 27px', serif;
+}
