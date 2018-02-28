@@ -1,0 +1,37 @@
+*{ 
+    box-sizing: border-box;
+}
+body {
+    background-color: purple;
+}
+#panel{
+    position: fixed;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    box-shadow:  0 0 10px black;
+}
+#picture{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+#right{
+    right: 5px;
+    position:fixed;
+    top:50%;
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    
+}
+#left{
+    left: 5px;
+    position:fixed;
+    top:50%;
+    width: 40px;
+    height:40px;
+    cursor:pointer;
+}

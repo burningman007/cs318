@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.blurb {
+    width: 90%;
+    box-shadow: 3px 4px 4px black;
+    font-family: 'Open Sans' , san-serif;
+    border-width: 1px 1px;
+    border-style: solid;
+    border-color: red;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: 200px auto;
+    padding: 100px 250px;
+    margin: 20px 0px;
+}
+
+.left {
+    background-color: Yellow;
+    margin-right: auto;
+    background-image: url("tom.png");    
+    background-size: auto 200px;
+    background-position: left;
+    background-repeat: no-repeat; 
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.right {
+    background-color: yellowgreen;
+    margin-left: auto;
+    background-image: url("mustashe.jpg");
+    background-size: auto 200px;
+    background-position: right;
+    background-repeat: no-repeat; 
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+body {
+    margin: 0px 0px;
+}
+h1 {
+    background-image: linear-gradient(to right, yellow, yellowgreen);
+    text-align: center;
+    font-size: 40px;
+    box-shadow: inset 0px -1px 20px 10px white;
+    padding: 25px 0px;
+}
+#chicken {
+    color: yellowgreen;
+}
+#egg {
+    color: yellow;
+}
