@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("cork.jpg");
+    background-repeat: repeat;
+}
+.photo {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+    box-shadow: -5px -5px 20px 5px;
+}
+.photo #pangolin {
+    width: 180px;
+    height: 160px
+}
+.photo #penguin {
+    width: 180px;
+    height: 160px;
+}
+.photo #elephant {
+    width: 180px;
+    height: 160px;
+}   
+.photo .pushpin {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.label {
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    left: 60px;
+    right:  60px;
+    bottom: 5px;
+}
+#pang {
+    transform: rotate(5deg);
+}
+#peng {
+    transform: rotate(0deg);
+}
+#elep {
+    transform: rotate(-10deg);
+}
