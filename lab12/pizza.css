@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+width: 600px;
+box-shadow: 0 0 10px;
+
+
+}
+header{
+    background-color: red;
+    text-align: center;
+}
+nav{
+    float: left;
+    height: 100%;
+    background-color: lightcoral;
+    width: 130px;
+}
+.pizza{
+    width: 300px;
+    align-content: center;
+}
+main{
+    background-color: wheat;
+    margin-left: 130px;
+    padding: 10px 10px;
+    
+}
+footer{
+    background-color:red;
+    margin-left: 130px;
+    padding: 10px 10px;
+}
+.color{
+    background-color: lightcoral;
+}
+.one{
+    list-style: none;
+}
+.menu{
+   text-decoration: none; 
+}
+#order{
+    background-image: url("order.png");
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    right: 350px;
+    background-size: 80px;
+}
+#now {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#pineapple {
+    width: 200px;
+    float: left;
+}
+#cheese {
+    width: 200px;
+    float: right;
+}
+#sauce {
+    width: 200px;
+    float: left;
+}
+.items {
+    clear: both;
+}
+iframe {
+    width: 450px;
+}
