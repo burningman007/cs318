@@ -1,0 +1,43 @@
+*{
+box-sizing: border-box;
+}
+.full {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+#bowl {
+background-image: url(rice.jpg);
+background-repeat: no-repeat;
+
+
+}
+#rice {
+    background-image: url(rice2.jpg);
+    background-repeat: no-repeat;
+    
+    
+    }
+    #redrice {
+        background-image: url(redrice.jpg);
+        background-repeat: no-repeat;
+        
+        
+        }
+header {
+    font-size: 250pt;
+    text-align: center;
+    position: fixed;
+    left: auto;
+    right: 35%;
+}
+body{
+    font-size: 80pt;
+    background-color: maroon;
+}
+#grain{
+
+}

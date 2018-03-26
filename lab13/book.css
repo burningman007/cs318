@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 10px;
+    background-color: cyan;
+    margin-left: 0px;
+}
+body {
+    background-color: lightblue;
+}
+ul {
+    list-style: none;
+    padding: 5px 5px 5px 0;
+}
+nav {
+    background-color: lightblue;
+    float: left;
+    width: 250px
+}
+main {
+    background-color: aquamarine;
+    margin-left: 250px;
+    padding: 10px;
+}
+@media (min-width: 600px) {
+    nav()
+}
