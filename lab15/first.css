@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+#yaki {
+    float: left;
+}
+#mars {
+    float: right;
+}
+#kid {
+    float: left;
+}
+#canyon {
+    float:  right;
+}
+.picture {
+    width: 300px;
+    padding: 10px;
+}
+.par {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    clear: both;
+}
+@media (max-width: 800px) {
+    .picture {
+        width: 100%;
+    }
+    }

@@ -74,3 +74,8 @@ iframe {
     width: 450px;
     
 }
+#whole {
+    background-image: url("https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false");
+    background-size: 40%;
+    float: left;
+}
