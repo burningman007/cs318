@@ -27,11 +27,12 @@ nav > ul {
     background-color: darkblue;
     color: white;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     border-color: white;
     border-style: solid;
     border-width: 1px;
     list-style-type: none;
+    position: relative;
 }
 .menu:hover {
     cursor: pointer;
@@ -47,8 +48,49 @@ a:hover {
 .menu > ul {
     list-style-type: none;
     text-align: left;
+    position: absolute;
+    background-color: darkblue;
+    top: 100%;
+    box-shadow: 0 5px 10px black;
+    display: block;
+    padding: 5px;
+    left: 0;
+    display: none;
 }
 .menu {
     position: relative;
     text-align: left;
+    padding: 5px;
+    display: inline-block;
+}
+.menu > ul > li {
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 1px;
+}
+.menu > ul > li:last-child {
+    border-bottom-width: 0;
+}
+.menu:hover > ul {
+    display: block;
+}
+@media (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+    .menu:focus > ul {
+        display: block;
+    }
+    }
+header > .menu {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    left: auto;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+header .menu > ul {
+    left: -250%;
 }
