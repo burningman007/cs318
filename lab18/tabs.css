@@ -1,0 +1,43 @@
+*{ box-sizing: border-box;}
+.tab{
+display: inline-block;
+background-color: lightgray;
+width: 50px;
+padding: 20px;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+outline: none;
+
+}
+.tab:hover{
+    cursor: pointer;
+
+}
+.tab:focus{
+    background-color: darkgray;
+
+}
+#panel0{
+    background-color: lightgray;
+    display: block;
+}
+.cat{
+    width: 100px;
+}
+#parent{
+    position: relative;
+    display:inline-block;
+}
+.panel{
+    position: absolute;
+    background-color: darkgrey;
+    display: none;
+}
+#one:focus~#panel1{
+display: block;
+}
+#two:focus~#panel2{
+ display: block;
+}
+#three:focus~#panel3{
+ display: block;  }

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.picture {
+    background-size: 100px;
+}
+#dining {
+    background-image: url("dining");
+    align-content: center;
+}
