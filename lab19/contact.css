@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    
+}
+form{
+    background-color: lightgray;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: right;
+}
+label{
+display: block;
+text-align: right;
+margin: 5px;
+font-size: 14pt;
+}
+textarea{
+    display: block;
+    text-align: left;
+    margin: 5px;
+    width: 250px;
+    height:150px;
+    color: grey;
+}
+#send{
+ 
+    
+    margin: 5px;
+    background-color:blue;
+    color:white;
+    font-size: 24pt;
+    padding: 10px;
+}
