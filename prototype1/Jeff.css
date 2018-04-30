@@ -89,7 +89,7 @@ a {
 }
 main {
     font-size: 14pt;
-    padding: 0 0 0 10px;
+    padding: 10px;
 
 }
 body {
@@ -101,27 +101,7 @@ body {
 main > form {
     display: block;
 }
-@media (max-width: 1100px) {
-    nav > ul > li {
-        display: block;
-        width: 100%;
-        text-align: center;
-        border-style: solid;
-        border-width: 0 0 2px 0;
-        border-color: white;
-    }
-    #latestsub {
-        display: none;
-    }
-    header {
-        border-style: solid;
-        border-width: 0 0 2px 0;
-        border-color: white;
-    }
-    main {
-        text-align: center;
-    }
-    } 
+
 form {
     width: 300px;
     padding: 20px;
@@ -171,4 +151,86 @@ textarea {
     width: 70%;
     height: auto;
 }
-
+.artist {
+    width: 300px;
+    display: inline-block;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.artist > div > img {
+    width: 280px;
+}
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+img {
+    border-radius: 15px;
+    flex-grow:20;
+    object-fit: cover;
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 0 10px 5px rgb(255, 194, 80);
+    
+}
+img:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-property: transform; 
+}
+@media (max-width: 1100px) {
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: white;
+    }
+    #latestsub {
+        display: none;
+    }
+    header {
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: white;
+    }
+    main {
+        text-align: center;
+    }
+    #gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    img {
+        border-radius: 15px;
+        flex-grow:20;
+        object-fit: cover;
+        width: 90%;
+        height: auto;
+        display: inline-block;
+        margin: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 3px;
+        box-shadow: 0 0 10px 5px rgb(255, 194, 80);
+        
+    }
+    img:hover {
+        transform: scale(1.05);
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+        transition-property: transform; 
+    } 
