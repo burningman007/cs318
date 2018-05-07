@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    background-color: rgb(170, 96, 36);
+    color: wheat;
+    text-shadow: 0 0 10px black;
+    padding: 1px 40px;
+}
+header > h1 > a {
+    color: wheat;
+
+}
+nav {
+    background-color: brown;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 24pt;
+    border-width: 0 0 2px 0;
+    border-color: black;
+    border-style: solid;
+}
+nav > ul {
+    padding: 0;
+    margin: 0;
+}
+nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color: white;
+    padding: 10px 15px 10px 10px;
+}
+nav > ul > li:hover {
+    transform: scale(1.03, 1);
+    transition-property: transform;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    position: relative;
+}
+nav > ul > li:last-child {
+    border-width: 0 0 0 0;
+}
+
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#latestsub {
+    background-color: burlywood;
+    float: right;
+    width: 350px;
+    text-align: center;
+    border-width: 0 0 3px 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 0 0 20px 0;
+}
+#latestsub > h3 {
+    padding: 0 20px;
+}
+main {
+    font-size: 14pt;
+    padding: 0;
+
+}
+body {
+    background-color: blanchedalmond;
+}
+#homecont > span {
+    font-size: 24pt;
+}
+main > form {
+    display: block;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: right;
+}
+label {
+    display: block;
+    text-align: right;
+    margin: 5px;
+    font-size: 14pt;
+}
+textarea {
+    display: block;
+    text-align: left;
+    margin: 5px;
+    width: 250px;
+    height:150px;
+    color: grey;
+}
+#send {
+    margin: 5px;
+    background-color: brown;
+    color:white;
+    font-size: 24pt;
+    padding: 10px;
+    border-radius: 10%;
+}    
+.picture > img {
+    width: 280px;
+    height: 240px;
+}
+.work {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background-color: rgb(238, 177, 103);
+    margin: 10px;
+    border-radius: 5%;
+    padding: 2px;
+    display: inline-block;
+}
+#DIY {
+    width: 345px;
+    text-align: center;
+    background-color: rgb(248, 184, 88);
+    border-radius: 10px;
+    border: 3px black;
+    border-style: solid;
+}
+.artist {
+    width: 330px;
+    display: inline-block;
+    background-color: burlywood;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+.artist > div > img {
+    width: 280px;
+}
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+img {
+    border-radius: 15px;
+    flex-grow:20;
+    object-fit: cover;
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 0 10px 5px rgb(255, 194, 80);
+}
+main > div > img {
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin: 50px 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 0 10px 5px rgb(255, 194, 80);
+}
+#homecont {
+    margin: 0;
+    padding: 10px 30px;
+}
+img:hover {
+    transform: scale(1.05);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    transition-property: transform; 
+}
+#send {
+    width: 70px;
+    height: 30px;
+    font-size: 10pt;
+    text-align: center;
+    padding: 0px;
+}
+main > a {
+    display: inline-block;
+    padding: 5px;
+}
+#homecontact {
+    background-color: rgb(255, 221, 134);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px black;
+    border-style: solid;
+    box-shadow: 0 0 5px 2px rgb(255, 194, 80);
+    color: black;
+    text-shadow: 0 0 10px 10px black;
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 0 0 85px;
+}
+footer {
+padding: 10px;
+}
+.clear {
+    clear: both;
+}
+@media (max-width: 1100px) {
+    nav > ul > li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: white;
+    }
+    #latestsub {
+        display: none;
+    }
+    header {
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: white;
+    }
+    main {
+        text-align: center;
+    }
+    #gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    img {
+        border-radius: 15px;
+        flex-grow:20;
+        object-fit: cover;
+        width: 90%;
+        height: auto;
+        display: inline-block;
+        margin: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 3px;
+        box-shadow: 0 0 10px 5px rgb(255, 194, 80);
+        
+    }
+    img:hover {
+        transform: scale(1.02);
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+        transition-property: transform; 
+    } 
+    #DIY {
+        width: 100%;
+        text-align: center;
+        background-color: rgb(248, 184, 88);
+        border-radius: 10px;
+        border: 3px black;
+        border-style: solid;
+    }
+    main > div > form {
+        text-align: center;
+    }
+    .artist {
+        width: 100%;
+        display: inline-block;
+        background-color: burlywood;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .artist > div > img {
+        width: 90%;
+    }
+}
